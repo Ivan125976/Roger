@@ -31,9 +31,9 @@ namespace Yocto_Roger_v._2._1
             sendMessage(ConsoleColor.Magenta, "Emotion :) 2026    Yocto Roger v.2.1");
             Thread.Sleep(3000);
             if (Parameters.isDebug == false)
-                sendMessage(ConsoleColor.DarkMagenta, "Welcome to the RogerHub! v.2.1.0");
+                sendMessage(ConsoleColor.DarkMagenta, "Welcome to the RogerHub! v.2.1.2");
             else
-                sendMessage(ConsoleColor.DarkMagenta, "Welcome to the RogerHub! v.2.1.0 DEBUG MODE");
+                sendMessage(ConsoleColor.DarkMagenta, "Welcome to the RogerHub! v.2.1.2 DEBUG MODE");
             while (true)
             {
                 Console.Write(" 1. Start Roger in training mode \n 2. Start Roger from the .roger file \n 3. Options for training mode \n 4. Exit of RogerHub \n >>>");
